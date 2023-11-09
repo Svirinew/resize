@@ -13,3 +13,13 @@ resize2fs /dev/ubuntu-vg/ubuntu-lv
 
  
  31
+
+change name 
+
+hostnamectl set-hostname new-one
+
+
+
+open ports
+lsof -nP | grep LISTEN
+netstat -l
