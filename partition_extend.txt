@@ -22,4 +22,5 @@ hostnamectl set-hostname new-one
 
 open ports
 lsof -nP | grep LISTEN
+apt install net-tools
 netstat -l
